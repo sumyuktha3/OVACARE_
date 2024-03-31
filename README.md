@@ -1,58 +1,94 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## OVACARE(PCOS PREDICTION) 
+
+Polycystic Ovary Syndrome (PCOS) is a prevalent endocrine disorder affecting reproductive-aged women.
+
+Despite its high incidence, diagnosis remains challenging due to its heterogeneous presentation. Machine Learning (ML) offers promising solutions for accurate and timely diagnosis by leveraging patterns in patient data. 
+
+This project aims to develop an ML-based diagnostic tool for PCOS, contributing to early detection and personalized management, ultimately improving the quality of life for affected individuals.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+
+The problem revolves around the complexity of diagnosing Polycystic Ovary Syndrome (PCOS), which manifests in diverse clinical presentations, resulting in frequent misdiagnosis or delayed detection. Conventional diagnostic approaches often lack the precision needed for early intervention and tailored treatment strategies. This project aims to tackle these issues by harnessing the power of machine learning. By leveraging patient data, we seek to develop a robust predictive model capable of accurately identifying PCOS, facilitating prompt intervention and personalized care for affected individuals.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Accuracy
+- Speed and Low Latency
+- Scalability
+- Reliability
+- Usability
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+## HARDWARE REQUIREMENTS
+### High-Performance Workstation:
+A workstation with a multicore processor (e.g., Intel Core i7 or AMD Ryzen 7) for parallel processing.
+### Graphics Processing Unit (GPU): 
+A dedicated GPU (e.g., NVIDIA GeForce RTX series) for accelerated computations, especially for machine learning tasks.
+### Memory (RAM):
+Minimum 16GB of RAM to handle the computational demands of OCR and image processing tasks.
+Storage: Adequate storage space (preferably SSD) to accommodate large datasets and model files.
+### High-Resolution Display: 
+A high-resolution 5 for a detailed web page display.
+                         
+## SOFTWARE REQUIREMENTS
+### Operating System: 
+A 64-bit operating system, such as Windows 10 or Ubuntu, for compatibility with modern machine learning frameworks.
+### Development Environment: 
+Python programming language (version 3.6 or later) for coding the Mindscan platform.
+### Machine Learning Frameworks: 
+Installation of machine learning frameworks, including Gaussian Naive Bayes, to leverage pre-trained models and facilitate model training.
+### Libraries: 
+- Integration of sklearn libraries to incorporate reduction techniques for high dimensional data visualization.
+- Integration of streamlit libraries for creation, customization and deployment of web page.
+### Code Editor : 
+VS code editor
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
-
+![image](https://github.com/sumyuktha3/OVACARE/assets/75235818/8f29cb3d-55c1-4af3-904d-6768523718f5)
 
 ## Output
+#### Output1 - OVACARE
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+![image](https://github.com/sumyuktha3/OVACARE/assets/75235818/9dd4ce54-42b3-4dc2-92cc-9572fb225d7a)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+#### Output2 - PREDICTION 
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+![image](https://github.com/sumyuktha3/OVACARE/assets/75235818/00e32d63-97bc-4417-a765-2e0fc274c79b)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output3 - POSITIVE
 
+![image](https://github.com/sumyuktha3/OVACARE/assets/75235818/def4bfe7-534d-47e9-9e10-5539651f3d97)
+
+#### Output4 - NEGATIVE
+
+![image](https://github.com/sumyuktha3/OVACARE/assets/75235818/7e707556-f4e2-4f81-b85f-749c2486eed9)
+
+Detection Accuracy: 87%
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+In conclusion, the development of a machine learning-based predictive model for Polycystic Ovary Syndrome (PCOS) holds significant promise in revolutionizing its diagnosis and management. Through the integration of diverse datasets and advanced algorithms, this project aims to overcome the challenges associated with PCOS heterogeneity and limited diagnostic accuracy. By providing everybody with a reliable tool for early detection and personalized treatment, we anticipate improved healthcare outcomes and enhanced quality of life for individuals affected by PCOS. Continued research and refinement of this model offer opportunities to further optimize PCOS prediction, ultimately benefiting patients and healthcare systems alike.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+
+[1] Rosenfield, R.L.; Ehrmann, D.A.The Hypothesis of PCOS as Functional Ovarian Hyperandrogenism Revisited. Endocr. 
+
+[2] Glintborg, D.; Kolster, N.D Prospective Risk of Type 2 Diabetes in Normal Weight Women with Polycystic Ovary Syndrome. Biomedicines
+
+[3] Scarfò, G.; Daniele, S.; Fusi, J.; Gesi, M.; Martini Metabolic and Molecular Mechanisms of Diet and Physical Exercise in the Management of Polycystic Ovarian Syndrome.
+
+[4] Glintborg, D.; Petersen, T.G.; Rubin Mediates Risk of Depression in Danish Women with Polycystic Ovary Syndrome
+
+[5] Abdul Hamid, F.; Abu, M.A.; Abdul KarimN.H.; Mohd Kamal, D.A.; Mokhtar, M.H. Sex Steroid Receptors in Polycystic Ovary Syndrome and Endometriosis
+
+[6] Nautiyal, H.; Imam, S.S.; Alshehri, S, Afzal, M Polycystic Ovarian Syndrome: A Complex Disease with a Genetics Approach. Biomedicines 
+
+[7] Shamik Tiwari, Lalit Kane, Deepika Koundal, Anurag Jain, Adi Alhudhaif, Kemal Polat, et al., "SPOSDS: A Smart Polycystic Ovary Syndrome Diagnostic System Using Machine Learning", Expert Systems with Applications, pp. 117592, 2022.
+
+[8] Danaei Mehr, Homay and Huseyin Polat, "Diagnosis of polycystic ovary syndrome through different machine learning and feature selection techniques", Health and Technology 12, vol. 1, pp. 137-150, 2022.
+
+[9] Yang Xiao, Richao Wu, Dan Qi, Linlin Fu, Tian Song, Ying Wang, et al., "Profile of bile acid metabolomics in the follicular fluid of PCOS patients", Metabolites 11, vol. 12, pp. 845, 2021.
+
 
 
 
